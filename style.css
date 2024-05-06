@@ -1,0 +1,178 @@
+div {
+  border-radius: 5px;
+}
+
+#cv {
+  width: 100%;
+  max-width: 800px;
+  background:gray;
+  margin: 30px auto;
+}
+
+.mainDetails {
+  padding: 25px 35px;
+  border-bottom: 2px brown ##800080;
+  background:#33FFFD;
+}
+
+#name h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+  margin-bottom: -6px;
+}
+
+#name h2 {
+  font-size: 2em;
+  margin-left: 2px;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+}
+
+#mainArea {
+  padding: 0 40px;
+}
+
+#headshot {
+  width: 12.5%;
+  float: left;
+  margin-right: 30px;
+}
+
+#headshot img {
+  width: 100%;
+  height: auto;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+#name {
+  float: left;
+}
+
+#contactDetails {
+  float: right;
+}
+
+#contactDetails ul {
+  list-style-type: none;
+  font-size: 0.9em;
+  margin-top: 2px;
+}
+
+#contactDetails ul li {
+  margin-bottom: 3px;
+  color: #444;
+}
+
+#contactDetails ul li a,
+a[href^="tel"] {
+  color: #444;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#contactDetails ul li a:hover {
+  color: #cf8a05;
+}
+
+#name {
+  float: left;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+
+#email {
+  float: right;
+  margin-right: 20px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+
+#contact {
+  margin-left: 45%;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.main_body {
+  float: left;
+  margin-top: 50px;
+  padding-left: 5px;
+  /*margin-right: -10px;
+    margin-left: 14%;*/
+  height: auto;
+  width: 99%;
+  background-color: #6BF3F1;
+}
+
+/*.left
+{
+    float: left;
+    margin-top: 50px;
+    /*margin-right: -90px;
+    height: relative;
+    width: 10%;
+    background-color: #4160E8;
+    }*/
+
+#footer {
+  height: 40px;
+  clear: both;
+  position: relative;
+  background-color: #c1e3e1;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+#job-responsibilities {
+  padding: 1px;
+}
+.job-title {
+  font-weight: bold;
+}
+table {
+  border: 1px dashed black;
+}
+td {
+  padding: 2px;
+  border: 1px solid #e88741;
+}
+
+#course-name {
+  font-weight: bold;
+}
+
+#company-name {
+  height: 2px;
+  text-decoration: underline;
+}
+#job-title {
+  height: 5px;
+}
+.job-duration {
+  float: right;
+}
+#heading {
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+}
